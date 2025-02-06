@@ -1,6 +1,0 @@
-matplotlib
-seaborn
-scikit-learn
-pandas
-numpy
-streamlit
