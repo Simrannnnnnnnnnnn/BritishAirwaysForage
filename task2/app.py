@@ -22,7 +22,7 @@ st.sidebar.header("🔍 User Input Features")
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("customer_booking.csv", encoding='latin1')
+        df = pd.read_csv("task2/customer_booking.csv", encoding='latin1')
         return df.copy()
     except FileNotFoundError:
         st.error("⚠️ Error: Dataset file not found. Please check the file path.")
