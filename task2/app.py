@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 from sklearn.preprocessing import StandardScaler
 
 # Display British Airways Logo
-st.image("C:/Users/kaurs/Downloads/download.png", width=300)
+st.image("download.png", width=300)
 
 # App Title
 st.markdown("<h3 style='text-align: center; color: #1a2c5b;'>✈️ British Airways Booking Prediction</h3>", unsafe_allow_html=True)
